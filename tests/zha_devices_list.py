@@ -261,7 +261,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: "sensor.centralite_3210_l_power",
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820-apparent_power"): {
@@ -2809,7 +2809,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: "sensor.lumi_lumi_plug_maus01_power",
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820-rms_voltage"): {
@@ -2898,7 +2898,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: "sensor.lumi_lumi_relay_c2acn01_power",
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820-apparent_power"): {
@@ -4890,7 +4890,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-3-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: ("sensor.osram_lightify_rt_tunable_white_power"),
             },
             ("sensor", "00:11:22:33:44:55:66:77-3-2820-apparent_power"): {
@@ -5423,7 +5423,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: "sensor.securifi_ltd_unk_model_power",
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820-apparent_power"): {
@@ -5589,7 +5589,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: "sensor.sercomm_corp_sz_esw01_power",
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820-apparent_power"): {
@@ -5753,7 +5753,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: "sensor.sinope_technologies_rm3250zb_power",
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820-apparent_power"): {
@@ -5857,7 +5857,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: "sensor.sinope_technologies_th1123zb_power",
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820-apparent_power"): {
@@ -5976,7 +5976,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: "sensor.sinope_technologies_th1124zb_power",
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820-apparent_power"): {
@@ -7389,7 +7389,7 @@ DEVICES = [
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820"): {
                 DEV_SIG_CLUSTER_HANDLERS: ["electrical_measurement"],
-                DEV_SIG_ENT_MAP_CLASS: "PolledElectricalMeasurement",
+                DEV_SIG_ENT_MAP_CLASS: "ElectricalMeasurement",
                 DEV_SIG_ENT_MAP_ID: "sensor.sinope_technologies_dm2550zb_power",
             },
             ("sensor", "00:11:22:33:44:55:66:77-1-2820-apparent_power"): {
