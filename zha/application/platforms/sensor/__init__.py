@@ -246,8 +246,7 @@ class Sensor(PlatformEntity):
         return self.formatter(raw_state)
 
     def handle_cluster_handler_attribute_updated(
-        self,
-        event: ClusterAttributeUpdatedEvent,  # pylint: disable=unused-argument
+        self, event: ClusterAttributeUpdatedEvent
     ) -> None:
         """Handle attribute updates from the cluster handler."""
         if (
@@ -311,7 +310,7 @@ class PollableSensor(Sensor):
 
     def handle_cluster_handler_attribute_updated(
         self,
-        event: ClusterAttributeUpdatedEvent,  # pylint: disable=unused-argument
+        event: ClusterAttributeUpdatedEvent,
     ) -> None:
         """Handle attribute updates from the cluster handler."""
         super().handle_cluster_handler_attribute_updated(event)
